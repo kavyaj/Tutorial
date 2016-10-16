@@ -1,0 +1,39 @@
+# Assignment No 1
+# Write code to check if a string is palindrome
+# ABCBA is a palindrome
+
+# some code to help you with the logic
+string1[2] == string2[2]  # comparing two characters if they are equal
+
+if string1[0] == string2[0]:
+    # Write code here when you want to do something if the 1st characters of the string are same
+    pass
+
+
+string1 = 'abcde'
+string2 = 'acdef'
+
+flag = True
+for i in range(0, len(string1):
+    if string1[i] != string2[i]:
+        flag = False
+        break
+
+if flag:
+    print('Strings are equal')
+else:
+    print('Strings are not equal')
+
+
+
+string1 = 'abcba'
+string2 = 'abcdef'
+
+
+def is_palindrome(string):
+    pass
+
+
+print(is_palindrome(string1))
+print(is_palindrome(string2))
+print(is_palindrome('HiiiiiiiH'))
