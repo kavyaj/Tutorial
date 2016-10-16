@@ -1,0 +1,25 @@
+# Write a function to reverse a string
+
+string = 'This is the string'
+length_of_the_string = len(string)
+print(string[10])  # Prints the 11th character in the string, 0 indexed
+
+print(range(10, 5, -1))  # Prints the [10, 9, 8, 7, 6]
+for i in range(3):
+    print(string[i]) # Prints the ith character
+    
+print(range(len(string))) # Prints array of integers from 0 to n where n is the length of the string
+
+# So use these functions and try to write a function to print the reverse of a string
+
+def reverse_string(string):
+    # Code to reverse the string
+    pass
+
+string = 'This is the string'
+length_of_the_string = len(string)
+length = 18
+
+
+for i in range(len(string) - 1, -1, -1)):
+    print(string[i])
