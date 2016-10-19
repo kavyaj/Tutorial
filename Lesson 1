@@ -12,6 +12,9 @@ print(range(len(string))) # Prints array of integers from 0 to n where n is the 
 
 # So use these functions and try to write a function to print the reverse of a string
 
+
+
+# Method 1: Prints one character in  each line (prints column wise)
 def reverse_string(string):
    
     length_of_the_string = len(string)
@@ -20,4 +23,28 @@ def reverse_string(string):
         
 
 string = 'This is the string'
-reverse_string(string
+reverse_string(string)
+
+
+# Method 2: Prints all the characters in a single line
+
+def reverse_string(string):
+    reversed_string = ''
+    length_of_the_string = len(string)
+    for i in range(len(string) - 1, -1, -1):
+        reversed_string += string[i]
+    return reversed_string
+
+string = 'This is the string'
+print(reverse_string(string))
+
+
+# Method 3: 
+
+def reverse_string(string):
+    return string[::-1]
+
+string = 'This is the string'
+print(reverse_string(string))
+
+
