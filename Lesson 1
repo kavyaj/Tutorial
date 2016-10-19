@@ -13,13 +13,11 @@ print(range(len(string))) # Prints array of integers from 0 to n where n is the 
 # So use these functions and try to write a function to print the reverse of a string
 
 def reverse_string(string):
-    # Code to reverse the string
-    pass
+   
+    length_of_the_string = len(string)
+    for i in range(len(string)- 1, -1, -1):
+        print(string[i])
+        
 
 string = 'This is the string'
-length_of_the_string = len(string)
-length = 18
-
-
-for i in range(len(string) - 1, -1, -1)):
-    print(string[i])
+reverse_string(string
