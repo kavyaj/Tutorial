@@ -21,7 +21,6 @@ def reverse_string(string):
     for i in range(len(string)- 1, -1, -1):
         print(string[i])
         
-
 string = 'This is the string'
 reverse_string(string)
 
